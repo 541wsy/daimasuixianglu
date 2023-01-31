@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 class Solution(object):
-    def minWindow(self, s, t):
+    def minWindow(self, s, t):#sdf
         """
         :type s: str
         :type t: str
