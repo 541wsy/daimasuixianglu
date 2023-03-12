@@ -50,7 +50,7 @@ class Solution:
         while q:
             for _ in range(len(q)):
                 node = q.popleft()
-                # 只要node在叶子节点，break...
+                # 只要node在叶子节点，break....
                 if not node.left and not node.right:
                     return depth
 
